@@ -74,7 +74,8 @@ header p{ margin: 0; color: var(--muted); font-size: .98rem; }
 #w9:checked ~ .tab-bar label[for="w9"],
 #w10:checked ~ .tab-bar label[for="w10"],
 #w11:checked ~ .tab-bar label[for="w11"],
-#w12:checked ~ .tab-bar label[for="w12"]{
+#w12:checked ~ .tab-bar label[for="w12"]
+#w13:checked ~ .tab-bar label[for="w13"]{
   background: linear-gradient(135deg, rgba(129,140,248,.35), rgba(34,211,238,.35));
   border-color: transparent; box-shadow: 0 8px 18px var(--ring), inset 0 1px 0 rgba(255,255,255,.2);
 }
@@ -99,6 +100,7 @@ header p{ margin: 0; color: var(--muted); font-size: .98rem; }
 #w10:checked ~ .content #c10{ display: block; }
 #w11:checked ~ .content #c11{ display: block; }
 #w12:checked ~ .content #c12{ display: block; }
+#w13:checked ~ .content #c13{ display: block; }
 
 h2{ margin: 0 0 8px; font-size: 1.35rem; }
 .date{ color: var(--muted); font-size: .95rem; margin-bottom: 18px; }
